@@ -1,0 +1,22 @@
+project/
+│
+├── data/
+│   ├── raw_reviews.csv              # Raw dataset containing product reviews
+│   └── processed_reviews.csv        # Preprocessed dataset ready for feature extraction
+│   └── features.pkl                 # Extracted features saved for model training
+│
+├── models/
+│   └── svm_model.pkl                # Trained SVM model saved for deployment
+│
+├── data_preprocessing.ipynb         # Notebook for data preprocessing (stopword removal, tokenization, etc.)
+│
+├── feature_extraction.ipynb         # Notebook for extracting features from the preprocessed data (TF-IDF, embeddings, etc.)
+│
+├── model_training.ipynb             # Notebook for training the SVM model
+│
+├── evaluation.ipynb                 # Notebook for evaluating the model performance
+│
+├── deployment.ipynb                 # Notebook for deploying the trained model (web app, API, etc.)
+│
+├── requirements.txt                 # List of dependencies and libraries required for the project
+└── README.md                        # Project overview and instructions on how to run the project
